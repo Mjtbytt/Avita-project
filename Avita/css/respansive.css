@@ -1,0 +1,225 @@
+@media screen and (max-width:1200px) {
+    #top-menu ul{
+        column-gap: 25px;
+    }
+    #menu-exm{
+        width: 830px;
+    }
+    .comment-wrpper{
+        height: 350px;
+    }
+    .cmt-fot{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:992px){
+    #top-menu ul{
+        column-gap: 15px;
+    }
+    .logo-avita img{
+        width: 140px;
+        height: 70px;
+    }
+    .caption-hover{
+        flex-basis: 45%;
+    }
+    #caption{
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .caption-hover{
+        flex-basis: 46%;
+        margin-top: 40px;
+    }
+    .left-img h2{
+        font-size: 17px;
+    }
+    .left-img h3{
+        font-size: 12px;
+    }
+    .left-comment-img{
+        width: 25%;
+    }
+    .left-img i{
+        font-size: 13px;
+    }
+    .right-img img{
+        width:70px ;
+    }
+    .li a{
+        font-size: 15px;
+    }
+    #team{
+        flex-wrap: wrap;
+        margin-bottom:40px ;
+    }
+    .team{
+        flex-basis: 42%;
+        margin-top: 40px;
+    }
+    #Example-of-work{
+        grid-template-columns: auto auto;
+    }
+    #footer{
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    .footer{
+        flex-basis: 42%;
+  
+    }
+    .footer3 div{
+        grid-template-columns: auto auto;
+    }
+    .footer3 div img{
+        height:46px;
+    }
+}
+@media screen and (max-width:768px){
+    #top h2{
+        font-size: 41px;
+        margin-top:70px;
+    }
+    #top-menu ul{
+        display: none;
+    }
+    .caption-hover{
+        flex-basis: 100%;
+    }
+    #number{
+        min-height: 800px;
+    }
+    .number{
+        flex-wrap: wrap;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .number-caption{
+        flex-basis: 44%;
+    }
+    .bg{
+        height: 800px;
+    }
+    .left-comment-img{
+        width: 15%;
+    }
+    .right-img{
+        padding-right: 75px;
+    }
+    .left-img{
+        padding-right: 90px;
+        padding-top: 5px;
+    }
+    .right-comment-img{
+        flex-direction: column;
+    }
+    .right-img img{
+        width: 100px;
+    }
+    #comment-top{
+        height: 235px;
+    }
+    .left-comment-img{
+        position: relative;
+        display: block;
+    }
+    .left-comment-img img{
+        position: absolute;
+        width: 50px;
+        top: 55px;
+        left: -2px;
+    }
+    .comment-wrpper{
+        height: 488px;
+    }
+    .cm2{
+        margin-top: 35px;
+    }
+    #phone{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .phone{
+        flex-basis: 45%;
+    }
+    .footer3 div{
+        grid-template-columns: auto ;
+    }
+    .footer3 div img{
+        height: 70px;
+    }
+}
+@media screen and (max-width:576px){
+    #top{
+        min-height: 665px;
+    }
+    #top h2{
+        font-size: 55px;
+        margin: 0;
+        padding: 0;
+        line-height: 0.5;
+    }
+    #top h3{
+        top: 150px;
+        font-size: 25px;
+    
+    }
+    #top p{
+        top: 440px;
+    }
+    #input-sr {
+        width: 325px;
+    }
+    #search{
+        top: 520px;
+    }
+    #number{
+        min-height: 1400px;
+    }
+    .number-caption{
+        flex-basis: 100%;
+    }
+    .bg{
+        height: 1400px;
+    }
+    .comment{
+        flex-wrap: wrap;
+    }
+    .comment-wrpper{
+        flex-basis: 100%;
+    }
+    .right-img{
+        padding-right: 125px;
+    }
+    .left-img{
+        padding-right: 140px;
+        padding-top: 5px;
+    }
+    #menu-exm{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    #Example-of-work{
+        grid-template-columns: auto ;
+    }
+    .footer{
+        flex-basis: 100%;
+    }
+    .team{
+        flex-basis: 100%;
+    }
+    .phone{
+        flex-basis: 100%;
+    }
+    .team img{
+        height:76%
+    }
+    .footer1 img{
+        margin: 0 auto;
+    }
+    .footer3 div{
+        padding-right: 75px;
+    }
+}

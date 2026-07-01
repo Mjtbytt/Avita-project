@@ -1,0 +1,2 @@
+primaryColor : #cb79e1;
+secondaryColor: rgba(119, 87, 183, 0.78);
